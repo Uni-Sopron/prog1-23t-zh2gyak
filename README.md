@@ -1,0 +1,25 @@
+## Programozás 1, 2. ZH (gyakorlás)
+
+A feladat egy olyan program elkészítése, amely színdarabok szövegkönyveiről készít statisztikákat.
+
+A program a [main.py](main.py) futtatásával legyen indítható.
+
+Parancssori argumentumként opcionálisan megadható egy könyvtár elérési útja, ahol a színdarab szövegei találhatók.
+Ha ez megadásra került, akkor induláskor kerüljön beolvasásra.
+Ha a könyvtár nem található, vagy nem lett megadva argumentum, írjon ki egy hibaüzenetet (`Error: Directory not found.`), és kérjen be egy új elérési utat a felhasználótól.
+Ezt addig ismételje, míg egy létező könyvtárt nem kap.
+
+A beolvasáshoz használja a [play.py](play.py)-ban található `load_play` függvényt, ami a könyvtárban lévő `.txt` fájlokra hívja meg a [scene.py](scene.py)-ban található `load_scene` függvényt.
+
+Minden jelenet (scene) szövegkönyve egy külön `jelenet_neve.txt` fájlban van tárolva. A jelenetben a karakterek megszólalásai (speeches) vannak.
+Minden megszólalás első sora a megszólaló nevét tartalmazza csupa nagybetűvel. Az ezt követő sorokban van a megszólalás szövege, amit egy üres sor zár le.
+
+A főmenü 1. menüpontjában lehessen új színdarabot beolvasni. Itt hiba esetén térjen vissza a főmenübe, és maradjon változatlan a korábban beolvasott színdarab.
+
+A 2. és 3. menüpontokhoz készüljenek segédfüggvények a megfelelő modulokban.
+
+A 2. menüpont kiválasztásakor kérje be egy karakter nevét (kis- és nagybetűket NE vegye figyelembe), majd listázza ki azon jelenetek nevét, amelyekben a karakternek van megszólalása.
+A jelenet neve a fájlnév a kiterjesztés nélkül.
+Ha a karakter nem található a színdarabban, írja ki az `Error: No character with this name.` hibaüzenetet, és térjen vissza a főmenübe.
+
+A 3. menüpont kiválasztásakor jelenítsen meg egy kimutatást, melyben minden szereplő karakterhez írja ki az összes megszólalásainak számát.
