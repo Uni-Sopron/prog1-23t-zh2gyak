@@ -70,9 +70,7 @@ And recks not his own rede.
 
 LAERTES
 O, fear me not.
-
 [Enter Polonius.]
-
 I stay too long. But here my father comes.
 A double blessing is a double grace.
 Occasion smiles upon a second leave.
@@ -122,7 +120,8 @@ OPHELIA
 And you yourself shall keep the key of it.
 
 LAERTES
-Farewell.	[Laertes exits.]
+Farewell.
+[Laertes exits.]
 
 POLONIUS
 What is 't, Ophelia, he hath said to you?
@@ -199,4 +198,3 @@ Look to 't, I charge you. Come your ways.
 OPHELIA
 I shall obey, my lord.
 [They exit.]
-

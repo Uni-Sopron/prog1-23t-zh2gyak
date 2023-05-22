@@ -132,7 +132,8 @@ HAMLET
 It waves me still.--Go on, I'll follow thee.
 
 MARCELLUS
-You shall not go, my lord.	[They hold back Hamlet.]
+You shall not go, my lord.
+[They hold back Hamlet.]
 
 HAMLET
 Hold off your hands.
@@ -167,4 +168,3 @@ Heaven will direct it.
 MARCELLUS
 Nay, let's follow him.
 [They exit.]
-

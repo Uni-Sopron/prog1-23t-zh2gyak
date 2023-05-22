@@ -136,7 +136,8 @@ REYNALDO
 Well, my lord.
 
 POLONIUS
-Farewell.	[Reynaldo exits.]
+Farewell.
+[Reynaldo exits.]
 
 [Enter Ophelia.]
 
@@ -212,4 +213,3 @@ move
 More grief to hide than hate to utter love.
 Come.
 [They exit.]
-

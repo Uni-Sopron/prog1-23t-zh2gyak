@@ -133,7 +133,8 @@ And to those thorns that in her bosom lodge
 To prick and sting her. Fare thee well at once.
 The glowworm shows the matin to be near
 And 'gins to pale his uneffectual fire.
-Adieu, adieu, adieu. Remember me.	[He exits.]
+Adieu, adieu, adieu. Remember me.
+[He exits.]
 
 HAMLET
 O all you host of heaven! O Earth! What else?
@@ -206,7 +207,8 @@ How say you, then? Would heart of man once think
 it?
 But you'll be secret?
 
-HORATIO/MARCELLUS   Ay, by heaven, my lord.
+HORATIO/MARCELLUS
+Ay, by heaven, my lord.
 
 HAMLET
 There's never a villain dwelling in all Denmark
@@ -250,7 +252,8 @@ What is 't, my lord? We will.
 HAMLET
 Never make known what you have seen tonight.
 
-HORATIO/MARCELLUS   My lord, we will not.
+HORATIO/MARCELLUS
+My lord, we will not.
 
 HAMLET
 Nay, but swear 't.
@@ -271,7 +274,8 @@ HAMLET
 Indeed, upon my sword, indeed.
 
 GHOST
-[cries under the stage]  Swear.
+[cries under the stage]
+Swear.
 
 HAMLET
 Ha, ha, boy, sayst thou so? Art thou there,
@@ -287,7 +291,8 @@ Never to speak of this that you have seen,
 Swear by my sword.
 
 GHOST
-[beneath]  Swear.
+[beneath]
+Swear.
 
 HAMLET
 Hic et ubique? Then we'll shift our ground.
@@ -297,7 +302,8 @@ Swear by my sword
 Never to speak of this that you have heard.
 
 GHOST
-[beneath]  Swear by his sword.
+[beneath]
+Swear by his sword.
 
 HAMLET
 Well said, old mole. Canst work i' th' earth so fast?--
@@ -326,7 +332,8 @@ That you know aught of me--this do swear,
 So grace and mercy at your most need help you.
 
 GHOST
-[beneath]  Swear.
+[beneath]
+Swear.
 
 HAMLET
 Rest, rest, perturbed spirit.--So, gentlemen,
@@ -339,6 +346,3 @@ The time is out of joint. O cursed spite
 That ever I was born to set it right!
 Nay, come, let's go together.
 [They exit.]
-
-
-
