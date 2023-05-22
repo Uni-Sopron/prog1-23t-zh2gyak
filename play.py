@@ -1,6 +1,6 @@
 
 
-def load_play(directory: str) -> dict[str, dict]:
+def load_play(directory: str) -> dict[str, list[str]]:
     """Loads the scenes of a play from the given directory.
 
     Args:
@@ -8,7 +8,7 @@ def load_play(directory: str) -> dict[str, dict]:
 
     Returns:
         A dict where the keys are the scene names (filename without ext.), values are
-        dicts containing character names and speeches.
+        lists containing the names of the speaking characters.
 
     Raises:
         FileNotFoundError: The directory was not found.
@@ -16,11 +16,11 @@ def load_play(directory: str) -> dict[str, dict]:
     return {}  # TODO
 
 
-def get_speech_count(play: dict[str, dict]) -> int:
+def get_speech_count(play: dict[str, list[str]]) -> int:
     """Counts the total number of speeches in all scenes of a play.
 
     Args:
-        play (dict[str, dict]): Names and speeches of a scene.
+        play (dict[str, list[str]]): Scene names and character names.
 
     Returns:
         int: The total number of speeches.
