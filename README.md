@@ -24,24 +24,78 @@ A 2. és 3. menüpontokhoz készüljenek segédfüggvények a megfelelő modulok
 A 2. menüpont kiválasztásakor kérje be egy karakter nevét (kis- és nagybetűket NE vegye figyelembe), majd listázza ki azon jelenetek nevét, amelyekben a karakter legalább egyszer megszólal.
 Ha a karakter nem található a színdarabban, írja ki az `Error: No character with this name.` hibaüzenetet, és térjen vissza a főmenübe.
 
-A 3. menüpont kiválasztásakor jelenítsen meg egy kimutatást, melyben minden szereplő karakterhez írja ki az összes megszólalásainak számát.
+A 3. menüpont kiválasztásakor jelenítsen meg egy kimutatást, melyben minden szereplő karakterhez írja ki az összes megszólalásainak számát. A karakterek sorrendje tetszőleges.
 
-Példa kimenet a hamlet-demo-ra:
+Példa kimenetek a hamlet-demo-ra:
 
 ```
+Currently opened play: hamlet-demo
+Total number of speeches: 251
+
+Main menu:
+1: Open a play from a directory
+2: List scenes of a character
+3: Display number of speeches by characters
+0: Exit
+Select a menu option: 2
+Enter character name: queen
+act-1-scene-2
+```
+
+```
+Currently opened play: hamlet-demo
+Total number of speeches: 251
+
+Main menu:
+1: Open a play from a directory
+2: List scenes of a character
+3: Display number of speeches by characters
+0: Exit
+Select a menu option: 2
+Enter character name: horatio
+act-1-scene-1
+act-1-scene-2
+act-1-scene-4
+act-1-scene-5
+```
+
+```
+Currently opened play: hamlet-demo
+Total number of speeches: 251
+
+Main menu:
+1: Open a play from a directory
+2: List scenes of a character
+3: Display number of speeches by characters
+0: Exit
+Select a menu option: 2
+Enter character name: romeo
+Error: No character with this name.
+```
+
+```
+Currently opened play: hamlet-demo
+Total number of speeches: 251
+
+Main menu:
+1: Open a play from a directory
+2: List scenes of a character
+3: Display number of speeches by characters
+0: Exit
+Select a menu option: 3
+BARNARDO: 19
 FRANCISCO: 8
-BARNARDO/MARCELLUS: 1
 HORATIO: 64
 KING: 7
-HAMLET: 72
-POLONIUS: 9
-BARNARDO: 19
+CORNELIUS/VOLTEMAND: 1
 QUEEN: 3
 OPHELIA: 10
-HORATIO/MARCELLUS: 2
-CORNELIUS/VOLTEMAND: 1
-GHOST: 13
-MARCELLUS: 30
 LAERTES: 8
+BARNARDO/MARCELLUS: 1
+GHOST: 13
+HORATIO/MARCELLUS: 2
+POLONIUS: 9
 ALL: 4
+HAMLET: 72
+MARCELLUS: 30
 ```
